@@ -1,5 +1,5 @@
-function bottleSong() {
-  let bottleCount = 99
+function bottleSong(bottleCount = 99) {
+  //let bottleCount = 99
   do {
     if (bottleCount > 1) {
       console.log(`${bottleCount} bottles of beer on the wall, ${bottleCount} bottles of beer.`)
